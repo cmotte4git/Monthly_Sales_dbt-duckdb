@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: monthly_sales_by_customer
+    description: "Aggregates sales by customer on a monthly basis"
+    columns:
+      - name: customer_id
+        description: "The ID of the customer"
+        tests:
+          - unique
+          - not_null
+
+      - name: month
+        description: "The month of the transaction"
+        tests:
+          - not_null
+
+      - name: total_sales
+        description: "The total sales for the customer in the month"
+        tests:
+          - not_null

@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dbt run",
+            "type": "shell",
+            "command": "dbt run",
+            "group": "build"
+        },
+        {
+            "label": "dbt test",
+            "type": "shell",
+            "command": "dbt test",
+            "group": "test"
+        },
+        {
+            "label": "dbt generate docs",
+            "type": "shell",
+            "command": "dbt docs generate",
+            "group": "documentation"
+        },
+        {
+            "label": "dbt run model",
+            "type": "shell",
+            "command": "dbt run --models monthly_sales_by_customer",
+            "group": "build"
+        }
+    ]
+ }

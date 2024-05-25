@@ -1,0 +1,151 @@
+[0m19:47:13.846342 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710767E270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710767E360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710767E390>]}
+
+
+============================== 19:47:13.871354 | 15fa8e9a-6e65-400c-8586-348238ce5aec ==============================
+[0m19:47:13.871354 [info ] [MainThread]: Running with dbt=1.7.10
+[0m19:47:13.876072 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\cmotte\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:47:13.881338 [info ] [MainThread]: dbt version: 1.7.10
+[0m19:47:13.885344 [info ] [MainThread]: python version: 3.12.2
+[0m19:47:13.888571 [info ] [MainThread]: python path: c:\Users\cmotte\dbt-from_scratch\.venv\Scripts\python.exe
+[0m19:47:13.894505 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m19:47:13.898716 [info ] [MainThread]: Using profiles dir at C:\Users\cmotte\.dbt
+[0m19:47:13.903270 [info ] [MainThread]: Using profiles.yml file at C:\Users\cmotte\.dbt\profiles.yml
+[0m19:47:13.909580 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cmotte\dbt-from_scratch\dbt_project.yml
+[0m19:47:13.914723 [info ] [MainThread]: Configuration:
+[0m19:47:13.917723 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m19:47:13.921656 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:47:13.925664 [info ] [MainThread]: Required dependencies:
+[0m19:47:13.930122 [debug] [MainThread]: Executing "git --help"
+[0m19:47:13.972772 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m19:47:13.977769 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m19:47:13.982028 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m19:47:13.986510 [info ] [MainThread]: dbt looked for a profiles.yml file in C:\Users\cmotte\.dbt\profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m19:47:13.993627 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\cmotte\dbt-from_scratch\dbt_project.yml> not found
+
+[0m19:47:14.000685 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m19:47:14.009675 [debug] [MainThread]: Command `dbt debug` failed at 19:47:14.008680 after 0.35 seconds
+[0m19:47:14.013676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710759D220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710742A090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002710767E8A0>]}
+[0m19:47:14.016693 [debug] [MainThread]: Flushing usage events
+[0m19:48:06.344259 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A407E450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A3F8B9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A407E360>]}
+
+
+============================== 19:48:06.350454 | 6553f291-bdb9-4438-a556-1113f4f08195 ==============================
+[0m19:48:06.350454 [info ] [MainThread]: Running with dbt=1.7.10
+[0m19:48:06.352457 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\cmotte\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init dbt-from_scratch', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:48:06.353888 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/cmotte/.dbt')}
+[0m19:48:06.355878 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m19:48:31.136833 [debug] [MainThread]: Starter project path: c:\Users\cmotte\dbt-from_scratch\.venv\Lib\site-packages\dbt\include\starter_project
+[0m19:48:31.220637 [info ] [MainThread]: 
+Your new dbt project "dbt_duckdb" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:48:31.229403 [info ] [MainThread]: Setting up your profile.
+[0m19:48:37.805331 [info ] [MainThread]: Profile dbt_duckdb written to C:\Users\cmotte\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:48:37.807584 [debug] [MainThread]: Command `dbt init` succeeded at 19:48:37.807584 after 31.65 seconds
+[0m19:48:37.808579 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A39D8D40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A40C49B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000183A2D75F70>]}
+[0m19:48:37.809581 [debug] [MainThread]: Flushing usage events
+[0m20:08:36.695300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4959A99D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A495845220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4959AA210>]}
+
+
+============================== 20:08:36.703938 | 0a0179ac-2741-478c-b90c-c1b4dc8007f7 ==============================
+[0m20:08:36.703938 [info ] [MainThread]: Running with dbt=1.7.10
+[0m20:08:36.705907 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\cmotte\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:08:36.706908 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\cmotte\dbt-from_scratch\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:08:36.710994 [debug] [MainThread]: Command `dbt run` failed at 20:08:36.709785 after 0.27 seconds
+[0m20:08:36.710994 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A49581E8A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4948F5520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A4959A99D0>]}
+[0m20:08:36.712000 [debug] [MainThread]: Flushing usage events
+[0m16:30:07.737955 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282F0FA5640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282F0FA5D60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282F0FA4C80>]}
+
+
+============================== 16:30:07.743054 | 645e8f1a-4b49-4549-b382-6a48bca6e8ff ==============================
+[0m16:30:07.743054 [info ] [MainThread]: Running with dbt=1.7.10
+[0m16:30:07.743964 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\cmotte\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m16:30:07.744971 [info ] [MainThread]: dbt version: 1.7.10
+[0m16:30:07.746437 [info ] [MainThread]: python version: 3.12.2
+[0m16:30:07.747292 [info ] [MainThread]: python path: c:\Users\cmotte\dbt-from_scratch\.venv\Scripts\python.exe
+[0m16:30:07.748413 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m16:30:07.908263 [info ] [MainThread]: Using profiles dir at C:\Users\cmotte\.dbt
+[0m16:30:07.910337 [info ] [MainThread]: Using profiles.yml file at C:\Users\cmotte\.dbt\profiles.yml
+[0m16:30:07.912589 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\cmotte\dbt-from_scratch\dbt_project.yml
+[0m16:30:07.922034 [info ] [MainThread]: adapter type: duckdb
+[0m16:30:07.922992 [info ] [MainThread]: adapter version: 1.7.3
+[0m16:30:07.923994 [info ] [MainThread]: Configuration:
+[0m16:30:07.925992 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:30:07.927168 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:30:07.929893 [info ] [MainThread]: Required dependencies:
+[0m16:30:07.931657 [debug] [MainThread]: Executing "git --help"
+[0m16:30:07.939742 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m16:30:07.942636 [info ] [MainThread]: Connection:
+[0m16:30:07.944612 [info ] [MainThread]:   database: dev
+[0m16:30:07.945616 [info ] [MainThread]:   schema: main
+[0m16:30:07.947345 [info ] [MainThread]:   path: dev.duckdb
+[0m16:30:07.949345 [info ] [MainThread]:   config_options: None
+[0m16:30:07.950344 [info ] [MainThread]:   extensions: None
+[0m16:30:07.951344 [info ] [MainThread]:   settings: None
+[0m16:30:07.953344 [info ] [MainThread]:   external_root: .
+[0m16:30:07.954345 [info ] [MainThread]:   use_credential_provider: None
+[0m16:30:07.956342 [info ] [MainThread]:   attach: None
+[0m16:30:07.957893 [info ] [MainThread]:   filesystems: None
+[0m16:30:07.960414 [info ] [MainThread]:   remote: None
+[0m16:30:07.962443 [info ] [MainThread]:   plugins: None
+[0m16:30:07.964504 [info ] [MainThread]:   disable_transactions: False
+[0m16:30:07.966339 [info ] [MainThread]: Registered adapter: duckdb=1.7.3
+[0m16:30:07.967549 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:30:07.968868 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:30:07.968868 [debug] [MainThread]: On debug: select 1 as id
+[0m16:30:07.970729 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:30:07.997781 [debug] [MainThread]: SQL status: OK in 0.0 seconds
+[0m16:30:07.999141 [debug] [MainThread]: On debug: Close
+[0m16:30:08.002318 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:30:08.004346 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:30:08.006343 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\cmotte\dbt-from_scratch\dbt_project.yml> not found
+
+[0m16:30:08.008340 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m16:30:08.011343 [debug] [MainThread]: Command `dbt debug` failed at 16:30:08.010346 after 0.44 seconds
+[0m16:30:08.012385 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:30:08.013304 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282EE335250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282F10BFA40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000282F0DF1850>]}
+[0m16:30:08.015216 [debug] [MainThread]: Flushing usage events
+[0m01:38:36.561081 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB607B710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB607AC60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB607AA80>]}
+
+
+============================== 01:38:36.572776 | a12e047f-a6eb-4071-a6f3-6ab101031c6c ==============================
+[0m01:38:36.572776 [info ] [MainThread]: Running with dbt=1.7.10
+[0m01:38:36.577786 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\cmotte\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt test', 'send_anonymous_usage_stats': 'True'}
+[0m01:38:36.580744 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\cmotte\dbt-from_scratch\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m01:38:36.585777 [debug] [MainThread]: Command `dbt test` failed at 01:38:36.585777 after 0.26 seconds
+[0m01:38:36.589605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB5F00890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB5FD8770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016AB5F1FDA0>]}
+[0m01:38:36.590757 [debug] [MainThread]: Flushing usage events
+[0m01:38:36.609759 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.

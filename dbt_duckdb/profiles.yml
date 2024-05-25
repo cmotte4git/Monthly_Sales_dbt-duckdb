@@ -1,0 +1,11 @@
+my_local_duckdb_profile:
+  outputs:
+    dev:
+      type: duckdb
+      path: scratch_dbt.duckdb
+      extensions:
+        - httpfs
+        - parquet
+      settings:
+        s3_region: us-east-1
+  target: dev
